@@ -1,0 +1,35 @@
+.contact-container {
+    padding:5px 0;
+    background-color:  #ffcc00f0;
+    border-top: 16px solid black;
+}
+
+.contact-container h2{
+    text-align: center;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+
+}
+.contact-info a{
+    position: relative;
+}
+
+.contact-info a img{
+    height: 4rem;
+    transition: transform 0.3s ease;
+
+}
+
+.contact-info a:hover img {
+  transform: scale(1.1); 
+}
+
+
+
+
